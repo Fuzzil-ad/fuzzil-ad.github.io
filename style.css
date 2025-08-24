@@ -6,14 +6,16 @@ body {
     animation: gradientBG 10s ease infinite;
     color: white;
 }
+
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
 
+
 header {
-    background: #673ab7;
+    background: #222;
     color: white;
     padding: 15px;
     text-align: center;
@@ -68,7 +70,7 @@ nav ul li a {
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -93,12 +95,12 @@ button {
 }
 
 button:hover {
-    background: #e91e63;
+    background: #7634e8;
 }
 
 footer {
     text-align: center;
     padding: 15px;
-    background: #673ab7;
+    background: #222;
     color: #fff;
 }
