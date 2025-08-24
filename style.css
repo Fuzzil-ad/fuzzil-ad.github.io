@@ -1,9 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(-45deg, #673ab7, #9c27b0, #ff4081, #e91e63);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    color: white;
+}
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 header {
